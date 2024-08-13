@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "bunx --bun vite build --watch",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.30",
+    "@types/socket.io-client": "^3.0.0",
+    "jquery": "^3.7.1",
+    "socket.io-client": "^4.7.5"
+  }
+}
